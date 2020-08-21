@@ -1341,7 +1341,7 @@ input[type="radio"]:checked {
 @media (max-width: 640px) {
   .header-main {
     background-image: url("../images/banner-mobile.jpg");
-    min-height: 100vh;
+    height: 100vh;
     min-width: 240px;
     max-width: 640px;
     padding-bottom: 0;
@@ -1636,7 +1636,7 @@ input[type="radio"]:checked {
 @media (max-width: 640px) and (orientation: landscape) {
   .header-main {
     background-image: url("../images/banner-mobile.jpg");
-    min-height: 100vh;
+    height: 100vh;
     min-width: 240px;
     max-width: 100%;
     padding-bottom: 0;
