@@ -1505,6 +1505,10 @@ input[type="radio"]:checked {
     width: 100%;
   }
 
+  .recent_posts {
+    margin-top: 45px;
+  }
+
   .recent_post_item {
     margin-top: 22px;
   }
