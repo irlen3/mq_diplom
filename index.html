@@ -101,7 +101,6 @@
     </div>
   </section>
 
-
   <div class="container_main_and_sidebar">
     <main class="main">
       <div class="main-container">
@@ -491,21 +490,23 @@
               <div class="your-feedback__row">
                 <label class="your-feedback__label">Как часто вы заходите на сайт?</label>
                 <select class="your-feedback__select">
-                  <option class="your-feedback__select-option" value="  Почти каждый день" selected>   Почти каждый день</option>
+                  <option class="your-feedback__select-option" selected>   Почти каждый день</option>
+                  <option class="your-feedback__select-option">   Каждую неделю</option>
+                  <option class="your-feedback__select-option">   Каждый месяц</option>
                 </select>
               </div>
               <div class="your-feedback__row">
                 <label class="your-feedback__label">Вы подписаны на e-mail рассылку?</label>
                 <div class="your-feedback__radio-container">
-                  <input class="your-feedback__radio-input" type="radio" checked>
+                  <input class="your-feedback__radio-input" type="radio" checked name="radio-group">
                   <label class="your-feedback__radio-label">Да</label>
-                  <input class="your-feedback__radio-input" type="radio">
-                    <label class="your-feedback__radio-label">Нет</label>
+                  <input class="your-feedback__radio-input" type="radio" name="radio-group">
+                  <label class="your-feedback__radio-label">Нет</label>
                 </div>
               </div>
               <div class="your-feedback__row">
                 <label class="your-feedback__label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
-                <textarea class="your-feedback__textarea">Может, больше рецептов?</textarea>
+                <textarea class="your-feedback__textarea" placeholder="Может, больше рецептов?"></textarea>
               </div>
               <div class="your-feedback__row">
                 <button class="your-feedback__button">
