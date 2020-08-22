@@ -634,7 +634,7 @@ body {
   margin-right: -20px;
   position: relative;
   box-sizing: border-box;
-  height: 268px;
+  height: 270px;
 }
 
 .shop_item_description_text {
@@ -1190,7 +1190,7 @@ input[type="radio"]:checked {
   }
 
   .shop_item_body {
-    height: 256px;
+    height: 270px;
   }
 
   .shop_item_description_text {
@@ -1543,7 +1543,8 @@ input[type="radio"]:checked {
   }
 
   .shop_item_body {
-      height: 215px;
+  /* height: 215px; */
+  height: 52%;
   }
 
   .shop_title {
@@ -1776,7 +1777,7 @@ input[type="radio"]:checked {
   }
 
   .shop_item_body {
-    height: 215px;
+    height: 52%;
 }
 
   .shop_title {
